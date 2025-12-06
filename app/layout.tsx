@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.css';
 
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
+
 const montserratFont = Montserrat({
 	subsets: ['latin'],
 	weight: '400',
@@ -21,8 +24,16 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<body className={`${montserratFont.className} antialiased`}>
-				{children}
+			<body
+				className={`${montserratFont.className} antialiased flex overflow-x-hidden`}
+			>
+				<Navbar />
+
+				<div className='w-full flex flex-col'>
+					{children}
+
+					<Footer />
+				</div>
 			</body>
 		</html>
 	);
