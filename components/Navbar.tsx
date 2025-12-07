@@ -54,7 +54,7 @@ export default function Navbar() {
 				</Link>
 			</div>
 
-			<div className='hidden w-full sm:flex sm:items-center sm:justify-evenly sm:gap-4 md-'>
+			<div className='hidden w-full sm:flex sm:items-center sm:justify-evenly sm:gap-4'>
 				<NavItem
 					setActiveFunc={setActive}
 					pageName='home'
