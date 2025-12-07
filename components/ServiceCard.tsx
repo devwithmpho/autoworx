@@ -12,7 +12,7 @@ export default function ServiceCard({
 	description,
 }: ServiceCardProps) {
 	return (
-		<div className='w-full z-1 hover:p-1 mb-10 py-10 rounded-lg shadow-black shadow-2xl bg-(--primary) flex flex-col items-center justify-center hover:scale-105 transition-all duration-150 ease-in-out hover:bg-[#ec5121]'>
+		<div className='w-full z-1 hover:p-1 mb-10 py-10 rounded-lg shadow-black shadow-2xl bg-(--primary) flex flex-col items-center justify-center hover:scale-105 transition-all duration-150 ease-in-out hover:bg-[#ec5121] sm:mb-0'>
 			<div className=' mb-10'>
 				<Image
 					src={imgSource}

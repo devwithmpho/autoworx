@@ -5,7 +5,7 @@ import Contact from './sections/Contact';
 
 export default function Home() {
 	return (
-		<div className='min-w-screen flex flex-col items-center justify-center'>
+		<div className='overflow-x-hidden min-w-screen flex flex-col items-center justify-center'>
 			<section id='home'>
 				<Hero />
 			</section>

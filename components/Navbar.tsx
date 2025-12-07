@@ -39,7 +39,7 @@ export default function Navbar() {
 	}, []);
 
 	return (
-		<div className='min-w-screen fixed top-0 z-10 bg-(--background-secondary) flex items-center justify-center sm:justify-between py-4 sm:px-12'>
+		<div className='min-w-screen py-4 fixed top-0 z-10 bg-(--background-secondary) flex items-center justify-center sm:justify-between sm:px-12'>
 			<div className='w-full flex justify-center sm:justify-between sm:items-center'>
 				<Link
 					href='#home'
@@ -54,7 +54,7 @@ export default function Navbar() {
 				</Link>
 			</div>
 
-			<div className='hidden sm:flex sm:items-center sm:justify-evenly sm:gap-4 md-'>
+			<div className='hidden w-full sm:flex sm:items-center sm:justify-evenly sm:gap-4 md-'>
 				<NavItem
 					setActiveFunc={setActive}
 					pageName='home'

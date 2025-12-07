@@ -23,13 +23,16 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang='en'>
+		<html
+			lang='en'
+			className='overflow-x-hidden'
+		>
 			<body
-				className={`${montserratFont.className} antialiased flex overflow-x-hidden min-w-screen`}
+				className={`${montserratFont.className} antialiased min-w-screen flex flex-col items-center justify-center overflow-x-hidden`}
 			>
 				<Navbar />
 
-				<div className='w-full flex flex-col'>
+				<div className='min-w-full flex flex-col items-center justify-center overflow-x-hidden'>
 					{children}
 
 					<Footer />

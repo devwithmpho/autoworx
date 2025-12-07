@@ -10,7 +10,7 @@ import facebookIcon from '@/public/facebook.png';
 
 export default function Contact() {
 	return (
-		<div className='bg-[#332f30] min-h-full flex flex-col items-center justify-center m-4 sm:mx-0 sm:grid sm:grid-cols-2 text-center rounded-2xl'>
+		<div className='bg-[#332f30] min-h-full flex flex-col items-center justify-center m-4 sm:mx-0 sm:py-10 sm:grid sm:grid-cols-2 text-center rounded-2xl'>
 			<div className='px-8 sm:px-20 text-center flex flex-col'>
 				<h4 className='heading mt-4 sm:mt-0'>Contact Us</h4>
 
