@@ -7,7 +7,7 @@ import overlay from '@/public/Hero Overlay.png';
 
 export default function Hero() {
 	return (
-		<div className='py-20 px-30 w-full min-h-screen flex justify-center items-center'>
+		<div className='py-20 px-8 sm:px-30 min-w-full min-h-screen flex justify-center items-center'>
 			<Image
 				src={overlay}
 				alt='Background Image'
@@ -17,9 +17,9 @@ export default function Hero() {
 				className='object-cover -z-10'
 			/>
 
-			<div className='w-full grid grid-cols-2'>
-				<div className='pt-10 w-full flex flex-col'>
-					<h1 className='title mb-4'>
+			<div className='min-w-full sm:grid grid-cols-2'>
+				<div className='text-center pt-10 w-full flex flex-col'>
+					<h1 className='title w-full mb-4'>
 						Auto<span className='text-(--primary)'>Worx</span> -
 						Precision Care for Every Car
 					</h1>
@@ -31,10 +31,12 @@ export default function Hero() {
 						with confidence.
 					</p>
 
-					<Button children='Book Your Service Today' />
+					<div className='self-center'>
+						<Button children='Book Your Service Today' />
+					</div>
 				</div>
 
-				<div className='h-full w-full flex items-center justify-center'>
+				<div className='h-full w-full hidden sm:flex items-center justify-center'>
 					<Image
 						src={car}
 						alt='Car'

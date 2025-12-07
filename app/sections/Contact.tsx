@@ -10,9 +10,9 @@ import facebookIcon from '@/public/facebook.png';
 
 export default function Contact() {
 	return (
-		<div className='bg-[#332f30] h-full m-10 grid grid-cols-2 items-center text-center rounded-2xl'>
-			<div className='px-20 text-center flex flex-col'>
-				<h4 className='heading'>Contact Us</h4>
+		<div className='bg-[#332f30] min-h-full flex flex-col items-center justify-center m-4 sm:mx-0 sm:grid sm:grid-cols-2 text-center rounded-2xl'>
+			<div className='px-8 sm:px-20 text-center flex flex-col'>
+				<h4 className='heading mt-4 sm:mt-0'>Contact Us</h4>
 
 				<p className='body'>
 					Have a question or need a quote? The AutoWorx team is ready
@@ -60,7 +60,7 @@ export default function Contact() {
 				<p className='body'>Phone: +27 00 000 0000</p>
 				<p className='body'>Email Address: help@autoworx.com</p>
 
-				<p className='mt-5 body font-semibold text-[22px]'>
+				<p className='mb-8 sm:mb-0 mt-5 body font-semibold text-[22px]'>
 					Location: 123 Main Road, Johannesburg
 				</p>
 			</div>
@@ -69,7 +69,7 @@ export default function Contact() {
 				onSubmit={(e) => {
 					e.preventDefault();
 				}}
-				className='flex flex-col bg-(--background-secondary) p-4 mr-10 rounded-2xl shadow-black shadow-md'
+				className='flex flex-col bg-(--background-secondary) p-4 mx-8 mb-4 sm:mb-0 sm:mx-0 sm:mr-10 rounded-2xl shadow-black shadow-md'
 			>
 				<p className='body font-bold mb-4'>
 					Use the form below to book a service or request more

@@ -1,6 +1,6 @@
 export default function About() {
 	return (
-		<div className='flex flex-col text-center shadow-black shadow-lg items-center align-center mt-20 mx-20 p-20 bg-[#242122] rounded-2xl'>
+		<div className='flex flex-col text-center shadow-black shadow-lg items-center align-center mt-20 mx-8 sm:mx-20 p-8 sm:p-20 bg-[#242122] rounded-2xl'>
 			<div className='flex flex-col mb-10'>
 				<h1 className='heading'>About Us</h1>
 

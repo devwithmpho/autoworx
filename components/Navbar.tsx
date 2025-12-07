@@ -39,8 +39,8 @@ export default function Navbar() {
 	}, []);
 
 	return (
-		<div className='w-full fixed z-10 bg-(--background-secondary) flex items-center justify-between py-4 px-12'>
-			<div>
+		<div className='min-w-screen fixed top-0 z-10 bg-(--background-secondary) flex items-center justify-center sm:justify-between py-4 sm:px-12'>
+			<div className='w-full flex justify-center sm:justify-between sm:items-center'>
 				<Link
 					href='#home'
 					className='cursor-pointer'
@@ -49,11 +49,12 @@ export default function Navbar() {
 						src={logo}
 						alt='Logo'
 						height={50}
+						className=''
 					/>
 				</Link>
 			</div>
 
-			<div className='flex items-center justify-evenly gap-4'>
+			<div className='hidden sm:flex sm:items-center sm:justify-evenly sm:gap-4 md-'>
 				<NavItem
 					setActiveFunc={setActive}
 					pageName='home'

@@ -25,7 +25,7 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body
-				className={`${montserratFont.className} antialiased flex overflow-x-hidden`}
+				className={`${montserratFont.className} antialiased flex overflow-x-hidden min-w-screen`}
 			>
 				<Navbar />
 

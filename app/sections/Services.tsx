@@ -6,7 +6,7 @@ import oilImage from '@/public/oil.png';
 
 export default function Services() {
 	return (
-		<div className='mt-20'>
+		<div className='min-w-full mt-20 p-8 text-center'>
 			<div className='flex flex-col items-center justify-center'>
 				<h1 className='heading'>Services</h1>
 
@@ -15,7 +15,7 @@ export default function Services() {
 				</h4>
 			</div>
 
-			<div className='grid grid-cols-3 mx-20 my-10'>
+			<div className='min-w-full flex flex-col sm:grid sm:grid-cols-3 sm:mx-20 my-8 sm:my-10'>
 				<ServiceCard
 					imgSource={maintenanceImage}
 					title='Diagnostics & Repairs'
