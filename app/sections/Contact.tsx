@@ -16,7 +16,7 @@ export default function Contact() {
 
 				<p className='body'>
 					Have a question or need a quote? The AutoWorx team is ready
-					to assist. Reach out and we’ll respond as soon as possible.
+					to assist. Reach out and we'll respond as soon as possible.
 				</p>
 
 				<div className='my-4 flex justify-center items-center gap-4'>
@@ -120,7 +120,7 @@ export default function Contact() {
 							type='text'
 							name='message'
 							id='message'
-							placeholder='Enter your name'
+							placeholder='Enter a message'
 							className='input w-full h-15'
 						/>
 					</div>
